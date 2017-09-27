@@ -99,6 +99,11 @@
 			background-color: white;
 			z-index: 15;
 		}
+		
+		.about-container img{
+			margin: -300px 0px 0px 50px;
+			padding : 0px;
+		}
 			
 		.about-container h3{
 			color: rgb(0,32,96);
