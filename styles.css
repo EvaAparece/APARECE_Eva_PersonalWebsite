@@ -13,7 +13,7 @@
 		.navbar {
 			overflow: hidden;
 			padding: -100px 20px;
-			background-color: rgb(0,32,96);;
+			background-color: rgb(0,32,96);
 			position: fixed;
 			top: 0;
 			width: 100%;
@@ -96,17 +96,29 @@
 			max-height: 100%;
 			margin: -4px 0px 0px -20px;
 			padding : 280px 0px 265px 0px;
-			background-color: #717171;
+			background-color: white;
 			z-index: 15;
+		}
+			
+		.about-container h3{
+			color: rgb(0,32,96);
+			font-weight: normal;
+			text-align: right;
+			font-family: Arial, Calibri, sans-serif;
+			font-size: 50px;
+			margin: -200px 450px 0px 600px;
+			padding: 10px;
 		}
 		
 		.about-container p{
-			color: white;
-			text-align: center;
+			color: rgb(0,32,96);
+			background-color: black;
+			text-align: left;
 			font-family: Agency FB, Calibri, sans-serif;
-			font-size: 50px;
-			margin: 0px;
-			padding: 0px;
+			font-size: 20px;
+			max-width: 500px;
+			margin: 0px 0px 0px 600px;
+			padding: 10px;
 		}
 		
 		.portfolio-container {
@@ -145,6 +157,13 @@
 			padding: 0px;
 		}
 		
+		.hr{
+			
+			width: 100%;
+			color: #363942;
+			border-top: 2px solid #ea9312;
+		}
+}
 		<!--body {
 				background-image: url("");
 		} -->
