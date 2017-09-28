@@ -142,7 +142,13 @@
 			border: solid rgb(0,32,96);
 		}
 		
-		
+		.portfolio-right{
+			width: 500px;
+			height: 600px;
+			margin: -605px 0px 0px 750px;
+			padding : 0px;
+			border: solid rgb(0,32,96);
+		}
 		
 		.portfolio-container h3{
 			color: rgb(0,32,96);
