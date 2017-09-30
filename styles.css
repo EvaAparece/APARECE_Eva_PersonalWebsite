@@ -151,20 +151,25 @@
 		
 		.portfolio-container h3{
 			color: rgb(0,32,96);
-			font-weight: normal;
-			text-align: right;
-			font-family: Arial, Calibri, sans-serif;
+			text-align: center;
+			font-family: Agency FB, Calibri, sans-serif;
 			font-size: 50px;
-			margin: -200px 450px 0px 600px;
-			padding: 10px;
+			margin: 50px 0px 0px 0px;
+			padding: 0px;
+		}
+		
+		.portfolio-container h2{
+			color: rgb(0,32,96);
+			margin: 40px 0px 0px 50px;
+			padding: 0px;
 		}
 		
 		.portfolio-container p{
 			color: rgb(0,32,96);
-			text-align: center;
-			font-family: Agency FB, Calibri, sans-serif;
-			font-size: 50px;
-			margin: 0px;
+			text-align: left;
+			font-family: Calibri, Arial, sans-serif;
+			font-size: 20px;
+			margin: 10px 0px 0px 60px;
 			padding: 0px;
 		}
 		
