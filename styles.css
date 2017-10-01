@@ -16,7 +16,7 @@
 		}*/
 		
 		.navbar {
-			width: 100%;
+			width: 1500px;
 			height: 75px;
 			top: 0;
 			position: fixed;
@@ -103,7 +103,7 @@
 			height: auto;
 			margin: auto;
 			padding : 10px;
-			background-color: cyan;
+			background-color: white;
 		}
 		
 		.about-left{
@@ -111,32 +111,68 @@
 			height: 500px;
 			margin: 100px auto 100px 100px;
 			padding : 0px;
-			border: solid rgb(0,32,96);
+			/*border: solid rgb(0,32,96);*/
 		}
 		
 		.about-right{
 			width: 500px;
 			height: 500px;
-			margin: -605px 100px 100px auto;
+			margin: -605px 150px 100px auto;
 			padding : 0px;
-			border: solid rgb(0,32,96);
+			/*border: solid rgb(0,32,96);*/
 		}
 		
 		.about-container img{
-			margin: auto;
+			margin: auto 25px auto 25px;
 			padding : auto;
 			background-color: cyan;
 		}
 			
 		.about-container p{
 			color: rgb(0,32,96);
-			text-align: center;
+			text-align: left;
 			font-family: Calibri, Arial sans-serif;
 			font-size: 20px;
 			max-width: 500px;
 			margin: 0px;
 			padding: 0px;
+			/*background-color: white;*/
+		}
+		
+		.aboutBasicInfo-container {
+			width: 1350px;
+			height: auto;
+			margin: auto;
+			padding : 10px;
 			background-color: white;
+		}
+		
+		.aboutBasicInfo-left{
+			width: 500px;
+			height: 500px;
+			margin: 100px auto 100px 100px;
+			padding : 0px;
+			/*border: solid rgb(0,32,96);*/
+		}
+		
+		.aboutBasic-right{
+			width: 500px;
+			height: 500px;
+			margin: -605px 150px 100px auto;
+			padding : 0px;
+			/*border: solid rgb(0,32,96);*/
+		}
+		
+			
+		.aboutBasicInfo-container p{
+			color: rgb(0,32,96);
+			text-align: left;
+			font-family: Calibri, Arial sans-serif;
+			font-size: 20px;
+			max-width: 500px;
+			margin: 0px;
+			padding: 0px;
+			/*background-color: white;*/
 		}
 		
 		.portfolio-container {
@@ -191,7 +227,7 @@
 			width: 1350px;
 			height: auto;
 			margin: auto;
-			padding : 280px 0px 265px 0px;
+			padding : 10px;
 			background-color: white;
 
 		}
@@ -199,7 +235,7 @@
 		.contact-container p{
 			color: rgb(0,32,96);
 			text-align: center;
-			font-family: Agency FB, Calibri, sans-serif;
+			font-family: Calibri, Arial sans-serif;
 			font-size: 50px;
 			margin: 0px;
 			padding: 0px;
