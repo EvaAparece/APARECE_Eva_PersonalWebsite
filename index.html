@@ -4,84 +4,98 @@
 	<title>Eva Aparece</title>
 		<link rel="stylesheet" href="styles.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="jquery-1.11.3.js"></script>
+		<script src="jquery.fullPage.min.js"></script>
+		<link rel="stylesheet" href="jquery.fullPage.css">
 	
 	</head>
  
 	<body>
 		<div class="navbar">
-			<p>EVA APARECE</p>
-			<a href="#home">HOME</a>
-			<a href="#about_me">ABOUT ME</a>
-			<a href="#my_portfolio">PORTFOLIO</a>
-			<a href="#contact">CONTACT</a>
+				<p>EVA APARECE</p>
+				<a href="#page1">HOME</a>
+				<a href="#page2">ABOUT ME</a>
+				<a href="#page3">PORTFOLIO</a>
+				<a href="#page4">CONTACT</a>
 		</div>
-		<div class="main">
-		    <div class="slideshow-container">
-				<div class="mySlides fade">
-					<img src="images/tempPhoto1.jpg" alt="tempPhoto1" height = "565" style="width:100%">
+		<div id="wrapper">
+				<div class="section" data-anchor=page1>
+					<div class="slideshow-container">
+						<div class="mySlides fade">
+							<img src="images/tempPhoto1.jpg" alt="tempPhoto1" height = "auto" style="width:1600px">
+						</div>
+						<div class="mySlides fade">
+							<img src="images/tempPhoto2.jpg" alt="tempPhoto2" height = "auto" style="width:1600px">
+						</div>
+						<div class="mySlides fade">
+							<img src="images/tempPhoto3.jpg" alt="tempPhoto3" height = "auto" style="width:1600px">
+						</div>
+						<div style="text-align:center">
+							<span class="dot"></span> 
+							<span class="dot"></span> 
+							<span class="dot"></span> 
+						</div>
+					</div>
 				</div>
-
-				<div class="mySlides fade">
-					<img src="images/tempPhoto2.jpg" alt="tempPhoto2" height = "565" style="width:100%">
+				<hr>
+				<div class="section" data-anchor=page2>
+					<div class="about-container">
+						<div class="about-left"> 
+							<img src="images/profilePic.jpg" alt="tempProfilepic" height= "500px" width= "450px">
+						</div>
+						<div class="about-right"> 
+							<p style= "font-size:50px; text-align:left">Hi! I'm Eva!<p>
+							<p>A 19 year-old college student from University of Southeastern Philippines. I am already in my third year studying the field of information technology and I am already knowledgeable enough with some of the programming languages like c++ and Java and familiar with some IT stuff.</p>
+							<br>
+							<p>I am always open and ready to the possibility of change as what an IT person should be. I love exploring things when it catches my attention. Sleeping means life to me but I also love to stay late at night learning new things.</p>
+							<br>
+							<p>I am friendly and optimistic person who would always want to see the good in everything and who believes that life is so good to be wasted.</p>
+						</div>
+					</div>
 				</div>
-
-				<div class="mySlides fade">
-					<img src="images/tempPhoto3.jpg" alt="tempPhoto3" height = "565" style="width:100%">
+				<hr>
+				<div class="section" data-anchor=page3>
+					<div class="portfolio-container">
+						<div class="portfolio-left"> 
+							<h3>Education</h3>
+								<h2>Elementary</h2>
+									<p>V. Hizon Sr. Elementary School</p>
+									<p>V.L. Angliongto Sr. Elementary School</p>
+								<h2>Secondary</h2>
+									<p>F. Bangoy National High School</p>
+								<h2>College</h2>
+									<p>University of Southeastern Philippines</p>
+						</div>
+							
+						<div class="portfolio-right">
+							<h3>Experiences</h3>
+								<h2>Seminars</h2>
+									<p>DevCon</p>
+									<p>Graphicon</p>
+						</div>
+					</div>
 				</div>
-				<div style="text-align:center">
-					<span class="dot"></span> 
-					<span class="dot"></span> 
-					<span class="dot"></span> 
+				<hr>
+				<div class="section" data-anchor=page4>
+					<div class="contact-container">
+						<p>You can reach me through my social media accounts. Let’s get in touch.</p>
+						<a href="https://facebook.com/bambeeblu" class="fa fa-facebook"></a>
+						<a href="https://twitter.com/bambeeblu" class="fa fa-twitter"></a>
+						<a href="https://ph.linkedin.com/in/bang-aparece-743948133?trk=profile-badge" class="fa fa-linkedin"></a>
+						<a href="https://instagram.com/bambeeblue" class="fa fa-instagram"></a>
+						<a href="#" class="fa fa-skype"></a>
+					</div>
 				</div>
-			</div>
-			<hr>
-			<div class="about-container">
-				<h3>Hi! I'm Eva!</h3>
-				<p>A 19 year-old college student from University of Southeastern Philippines. I am already in my third year studying the field of information technology and I am already knowledgeable enough with some of the programming languages like c++ and Java and familiar with some IT stuff.</p>
-				<br>
-				<p>I am always open and ready to the possibility of change as what an IT person should be. I love exploring things when it catches my attention. Sleeping means life to me but I also love to stay late at night learning new things.</p>
-				<br>
-				<p>I am friendly and optimistic person who would always want to see the good in everything and who believes that life is so good to be wasted.</p>
-				
-				<img src="images/profilePic.jpg" alt="tempProfilepic" height= "500px" width= "450px">
-			</div>
-			<hr>
-			<div class="portfolio-container">
-                <div class="portfolio-left"> 
-					<h3>Education</h3>
-						<h2>Elementary</h2>
-							<p>V. Hizon Sr. Elementary School</p>
-							<p>V.L. Angliongto Sr. Elementary School</p>
-						<h2>Secondary</h2>
-							<p>F. Bangoy National High School</p>
-						<h2>College</h2>
-							<p>University of Southeastern Philippines</p>
-				</div>
-					
-				<div class="portfolio-right">
-					<h3>Experiences</h3>
-						<h2>Seminars</h2>
-							<p>DevCon</p>
-							<p>Graphicon</p>
-				</div>
-			</div>
-			<hr>
-			<div class="contact-container">
-				<p>You can reach me through social media accounts. Let’s get in touch.</p>
-				<a href="https://facebook.com/bambeeblu" class="fa fa-facebook"></a>
-				<a href="https://twitter.com/bambeeblu" class="fa fa-twitter"></a>
-				<a href="https://ph.linkedin.com/in/bang-aparece-743948133?trk=profile-badge" class="fa fa-linkedin"></a>
-				<a href="https://instagram.com/bambeeblue" class="fa fa-instagram"></a>
-				<a href="#" class="fa fa-skype"></a>
-			</div>
+			<br>
 			
-		</div>
-		<br>
+			<script src="scripts.js"></script>
 		
-		
-		<script src="scripts.js"></script>
-		
-		
+		</div>	
+		<script>
+			$(document).ready(function(){
+				$('#wrapper').fullpage();
+			})
+		</script>
 	</body>
 </html>
 
