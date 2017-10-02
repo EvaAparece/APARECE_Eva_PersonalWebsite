@@ -252,6 +252,42 @@
 			/*background-color: white;*/
 		}
 		
+		.getToKnowFunFacts-container {
+			width: 1350px;
+			height: auto;
+			margin: auto;
+			padding : 10px;
+			background-color: white;
+		}
+		
+		.getToKnowFunFacts-left{
+			width: 500px;
+			height: 500px;
+			margin: 100px auto 100px 100px;
+			padding : 0px;
+			/*border: solid rgb(0,32,96);*/
+		}
+		
+		.getToKnowFunFacts-right{
+			width: 500px;
+			height: 500px;
+			margin: -605px 150px 100px auto;
+			padding : 0px;
+			/*border: solid rgb(0,32,96);*/			
+		}
+		
+			
+		.getToKnowFunFacts-container p{
+			color: rgb(0,32,96);
+			text-align: left;
+			font-family: Calibri, Arial sans-serif;
+			font-size: 20px;
+			max-width: 500px;
+			margin: 0px;
+			padding: 0px;
+			/*background-color: white;*/
+		}
+		
 		.portfolio-container {
 			width: 1350px;
 			height: auto;
