@@ -175,6 +175,83 @@
 			/*background-color: white;*/
 		}
 		
+		.getToKnow-container {
+			width: 1350px;
+			height: auto;
+			margin: auto;
+			padding : 10px;
+			background-color: white;
+		}
+		
+		.getToKnow-left{
+			width: 500px;
+			height: 500px;
+			margin: 100px auto 100px 100px;
+			padding : 0px;
+			/*border: solid rgb(0,32,96);*/
+		}
+		
+		.getToKnow-right{
+			width: 500px;
+			height: 500px;
+			margin: -605px 150px 100px auto;
+			padding : 0px;
+			/*border: solid rgb(0,32,96);*/
+		}
+		
+		.getToKnow-container img{
+			margin: auto 25px auto 25px;
+			padding : auto;
+			background-color: cyan;
+		}
+			
+		.getToKnow-container p{
+			color: rgb(0,32,96);
+			text-align: left;
+			font-family: Calibri, Arial sans-serif;
+			font-size: 20px;
+			max-width: 500px;
+			margin: 0px;
+			padding: 0px;
+			/*background-color: white;*/
+		}
+		
+		.getToKnowMyInterest-container {
+			width: 1350px;
+			height: auto;
+			margin: auto;
+			padding : 10px;
+			background-color: white;
+		}
+		
+		.getToKnowMyInterest-left{
+			width: 500px;
+			height: 500px;
+			margin: 100px auto 100px 100px;
+			padding : 0px;
+			/*border: solid rgb(0,32,96);*/
+		}
+		
+		.getToKnowMyInterest-right{
+			width: 500px;
+			height: 500px;
+			margin: -605px 150px 100px auto;
+			padding : 0px;
+			/*border: solid rgb(0,32,96);*/			
+		}
+		
+			
+		.getToKnowMyInterest-container p{
+			color: rgb(0,32,96);
+			text-align: left;
+			font-family: Calibri, Arial sans-serif;
+			font-size: 20px;
+			max-width: 500px;
+			margin: 0px;
+			padding: 0px;
+			/*background-color: white;*/
+		}
+		
 		.portfolio-container {
 			width: 1350px;
 			height: auto;
