@@ -20,3 +20,40 @@
 		}
 		
 		
+		
+		function openModal() {
+		  document.getElementById('myModal').style.display = "block";
+		}
+
+		function closeModal() {
+		  document.getElementById('myModal').style.display = "none";
+		}
+
+		var ModalslideIndex = 1;
+		showModalSlides(ModalslideIndex);
+
+		function plusSlides(n) {
+		  showModalSlides(ModalslideIndex += n);
+		}
+
+		function currentSlide(n) {
+		  showModalSlides(ModalslideIndex = n);
+		}
+
+		function showModalSlides(n) {
+		  var j;
+		  var Modalslides = document.getElementsByClassName("myModalSlides");
+		  var Modaldots = document.getElementsByClassName("demo");
+		  var captionText = document.getElementById("caption");
+		  if (n > Modalslides.length) {ModalslideIndex = 1}
+		  if (n < 1) {ModalslideIndex = Modalslides.length}
+		  for (j = 0; j < Modalslides.length; j++) {
+			  Modalslides[j].style.display = "none";
+		  }
+		  for (j = 0; j < Modaldots.length; j++) {
+			  Modaldots[j].className = Modaldots[j].className.replace(" activeModal", "");
+		  }
+		  Modalslides[ModalslideIndex-1].style.display = "block";
+		  Modaldots[ModalslideIndex-1].className += " activeModal";
+		  captionText.innerHTML = Modaldots[ModalslideIndex-1].alt;
+		}
