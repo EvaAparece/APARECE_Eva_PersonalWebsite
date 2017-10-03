@@ -7,6 +7,7 @@
 		<script src="jquery-1.11.3.js"></script>
 		<script src="jquery.fullPage.js"></script>
 		<link rel="stylesheet" href="jquery.fullPage.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	</head>
  
@@ -58,18 +59,18 @@
 						<div class="aboutBasicInfo-container">
 							<p style= "font-size:50px; margin-top: 70px; margin-left: 20px; margin-bottom: 20px; text-align: left"> Basic Information<p>
 							<div class="aboutBasicInfo-left"> 
-								<p style="font-weight: bold">Name: </p><p>Eva Dagooc Aparece</p>
-								<p style="font-weight: bold">Birthday: </p><p>March 21, 1998</p>
-								<p style="font-weight: bold">Age: </p><p>19 years old</p>
-								<p style="font-weight: bold">Address: </p><p>PUNAD, Ph. 2, Blk. 2, Lt. 4, Catleya St. Brgy.Anglionto Davao City</p>
-								<p style="font-weight: bold">E-mail: </p><p>eva.d.aparece@gmail.com</p>
+								<p><b>Name:</b> Eva Dagooc Aparece</p>
+								<p><b>Birthday:</b> March 21, 1998</p>
+								<p><b>Age:</b> 19 years old</p>
+								<p><b>Address:</b> PUNAD, Ph. 2, Blk. 2, Lt. 4, Catleya St. Brgy.Anglionto Davao City</p>
+								<p><b>E-mail:</b> eva.d.aparece@gmail.com</p>
 							</div>
 							<div class="about-right"> 
-								<p style="font-weight: bold">Mother's Name: </p><p>Femie Dagooc Aparece</p>
-								<p style="font-weight: bold">Father's Name: </p><p>Delfin Vistal Aparece</p>
-								<p style="font-weight: bold">Weight: </p><p>46 kls.</p>
-								<p style="font-weight: bold">Height: </p><p>5'2 inches</p>
-								<p style="font-weight: bold">Status: </p><p>Single</p>
+								<p><b> Mother's Name: </b> Femie Dagooc Aparece</p>
+								<p><b> Father's Name: </b> Delfin Vistal Aparece</p>
+								<p><b> Weight: </b> 6 kls.</p>
+								<p><b> Height: </b> 5'2 inches</p>
+								<p><b> Status: </b> Single</p>
 							</div>
 						</div>
 					</div>
@@ -103,33 +104,150 @@
 							<div class="aboutBasicInfo-left"> 
 
 							</div>
-							<div class="about-right"> 
+							<div class="getToKnow-right"> 
 			
 							</div>
 						</div>
 					</div>
 					<div class="slide">
-						<div class="getToKnowBasicInfo-container">
+						<div class="getToKnowFunFacts-container">
 							<p style= "font-size:50px; margin-top: 70px; margin-left: 20px; margin-bottom: 20px; text-align: left"> Fun Facts<p>
-							<div class="aboutBasicInfo-left"> 
+							<div class="getToKnowFunFacts-left"> 
 								
 							</div>
-							<div class="about-right"> 
+							<div class="getToKnow-right"> 
 								
 							</div>
 						</div>
 					</div>
 					<div class="slide">
-						<div class="getToKnowBasicInfo-container">
+						<div class="getToKnowMyPhotos-container">
 							<p style= "font-size:50px; margin-top: 70px; margin-left: 20px; margin-bottom: 20px; text-align: left"> My Photos<p>
-							<div class="getToKnowBasicInfo-left"> 
-								<img src="images/photo3_1_small.jpg" alt="tempProfilepic" height= "200px" width= "200px">
-								<img src="images/photo2_small.jpg" alt="tempProfilepic" height= "200px" width= "200px">
-								<img src="images/photo1_small.jpg" alt="tempProfilepic" height= "200px" width= "200px">
+							<div class="row">
+								<div class="column">
+									<img src="images/photo3_1_small.jpg" alt="photo1" style="width: 200px" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+								</div>
+								<div class="column">
+									<img src="images/photo2_small.jpg" alt="photo2" width= "200px" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+								</div>
+								<div class="column">
+									<img src="images/photo1_small.jpg" alt="photo3" width= "200px" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+								</div>
+								<div class="column">
+									<img src="images/photo1_small.jpg" alt="photo3" width= "200px" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+								</div>
 							</div>
-							<div class="about-right"> 
-								
+
+							<div id="myModal" class="modal">
+								<span class="close cursor" onclick="closeModal()">&times;</span>
+								<div class="modal-content">
+									<div class="myModalSlides">
+									  <div class="numbertext">1 / 4</div>
+									  <img src="images/photo3_1.jpg" alt="photo1" width= "100%">
+									</div>
+
+									<div class="myModalSlides">
+									  <div class="numbertext">2 / 4</div>
+									  <img src="images/photo2.jpg" alt="photo2" width= "100%">
+									</div>
+
+									<div class="myModalSlides">
+									  <div class="numbertext">3 / 4</div>
+									  <img src="images/photo1.jpg" alt="photo3" width= "100%">
+									</div>
+									
+									<div class="myModalSlides">
+									  <div class="numbertext">4 / 4</div>
+									  <img src="images/photo1.jpg" alt="photo3" width= "100%">
+									</div>
+									
+									<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+									<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+									<div class="caption-container">
+									  <p id="caption"></p>
+									</div>
+
+
+									<div class="column">
+									  <img class="demo cursor" src="images/photo3_1_small.jpg" alt="photo1" width= "100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+									</div>
+									<div class="column">
+									  <img class="demo cursor" src="images/photo2_small.jpg" alt="photo2" width= "100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
+									</div>
+									<div class="column">
+									  <img class="demo cursor" src="images/photo1_small.jpg" alt="photo3" width= "100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+									</div>
+									<div class="column">
+									  <img class="demo cursor" src="images/photo1_small.jpg" alt="photo3" width= "100%" onclick="currentSlide(4)" alt="Northern Lights">
+									</div>
+								</div>
 							</div>
+
+							
+							<!--<div class="responsive">
+								  <div class="gallery">
+									<a target="_blank" href="images/photo3_1_small.jpg">
+										<img src="images/photo3_1_small.jpg" alt="photo1" height= "200px" width= "200px">
+									</a>
+									<div class="desc">Add a description of the image here</div>
+								  </div>
+								</div>
+
+								<div class="responsive">
+								  <div class="gallery">
+									<a target="_blank" href="images/photo2_small.jpg">
+									 <img src="images/photo2_small.jpg" alt="photo2" height= "200px" width= "200px">
+									</a>
+									<div class="desc">Add a description of the image here</div>
+								  </div>
+								</div>
+
+								<div class="responsive">
+								  <div class="gallery">
+									<a target="_blank" href="images/photo1_small.jpg">
+									  <img src="images/photo1_small.jpg" alt="photo3" height= "200px" width= "200px">
+									</a>
+									<div class="desc">Add a description of the image here</div>
+								  </div>
+								</div>
+
+								<div class="responsive">
+								  <div class="gallery">
+									<a target="_blank" href="images/photo3_1_small.jpg">
+									  <img src="images/photo3_1_small.jpg" alt="photo4" height= "200px" width= "200px">
+									</a>
+									<div class="desc">Add a description of the image here</div>
+								  </div>
+								</div>
+
+								<div class="responsive">
+								  <div class="gallery">
+									<a target="_blank" href="images/photo3_1_small.jpg">
+									  <img src="images/photo3_1_small.jpg" alt="photo4" height= "200px" width= "200px">
+									</a>
+									<div class="desc">Add a description of the image here</div>
+								  </div>
+								</div>
+
+								<div class="responsive">
+								  <div class="gallery">
+									<a target="_blank" href="images/photo3_1_small.jpg">
+									  <img src="images/photo3_1_small.jpg" alt="photo4" height= "200px" width= "200px">
+									</a>
+									<div class="desc">Add a description of the image here</div>
+								  </div>
+								</div>
+
+								<div class="clearfix"></div>
+
+								<img src="images/photo3_1_small.jpg" alt="photo1" height= "200px" width= "200px">
+								<img src="images/photo2_small.jpg" alt="photo2" height= "200px" width= "200px">
+								<img src="images/photo1_small.jpg" alt="photo3" height= "200px" width= "200px">	
+								<img src="images/photo3_1_small.jpg" alt="photo4" height= "200px" width= "200px">
+								<img src="images/photo2_small.jpg" alt="photo5" height= "200px" width= "200px">
+								<img src="images/photo1_small.jpg" alt="photo6" height= "200px" width= "200px">	
+							</div>-->
 						</div>
 					</div>
 				</div>
