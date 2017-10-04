@@ -228,7 +228,7 @@
 		.getToKnow-container p{
 			color: rgb(0,32,96);
 			text-align: left;
-			font-family: Calibri, Arial sans-serif;
+			font-family: Roboto-Thin, Walkway Condensed Semi Bold sans-serif;
 			font-size: 20px;
 			max-width: 500px;
 			margin: 0px;
@@ -264,7 +264,7 @@
 		.getToKnowMyInterest-container p{
 			color: rgb(0,32,96);
 			text-align: left;
-			font-family: Calibri, Arial sans-serif;
+			font-family: Roboto-Thin, Walkway Condensed Semi Bold sans-serif;
 			font-size: 20px;
 			max-width: 500px;
 			margin: 0px;
@@ -282,10 +282,10 @@
 		
 		.getToKnowFunFacts-left{
 			width: 500px;
-			height: 500px;
-			margin: 100px auto 100px 100px;
+			height: 450px;
+			margin: -50px auto 100px 100px;
 			padding : 0px;
-			/*border: solid rgb(0,32,96);*/
+			border: solid rgb(0,32,96);
 		}
 		
 		.getToKnowFunFacts-right{
@@ -293,18 +293,31 @@
 			height: 500px;
 			margin: -605px 150px 100px auto;
 			padding : 0px;
-			/*border: solid rgb(0,32,96);*/			
+			border: solid rgb(0,32,96);			
 		}
 		
 			
 		.getToKnowFunFacts-container p{
 			color: rgb(0,32,96);
 			text-align: left;
-			font-family: Calibri, Arial sans-serif;
+			font-family: Roboto-Thin, Walkway Condensed Semi Bold sans-serif;
+			font-weight: bold;
 			font-size: 20px;
 			max-width: 500px;
-			margin: 0px;
-			padding: 0px;
+			margin-top: 15px;
+			padding: 8px;
+			/*background-color: white;*/
+		}
+		
+		.getToKnowFunFacts-container a{
+			color: rgb(0,32,96);
+			text-align: left;
+			font-family: Roboto-Thin, Walkway Condensed Semi Bold sans-serif;
+			font-weight: 900;
+			font-size: 20px;
+			max-width: 500px;
+			margin-top: 15px;
+			padding: 8px;	
 			/*background-color: white;*/
 		}
 		
@@ -321,7 +334,7 @@
 		.getToKnowMyPhotos-container p{
 			color: rgb(0,32,96);
 			text-align: left;
-			font-family: Calibri, Arial sans-serif;
+			font-family: Roboto-Thin, Walkway Condensed Semi Bold sans-serif;
 			font-size: 20px;
 			max-width: 500px;
 			margin: 0px;
