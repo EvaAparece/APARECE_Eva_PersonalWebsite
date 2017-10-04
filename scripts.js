@@ -35,7 +35,7 @@
 		function plusSlides(n) {
 		  showModalSlides(ModalslideIndex += n);
 		}
-
+ 
 		function currentSlide(n) {
 		  showModalSlides(ModalslideIndex = n);
 		}
