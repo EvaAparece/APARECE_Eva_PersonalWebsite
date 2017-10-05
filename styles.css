@@ -73,7 +73,7 @@
 		.slideshow-container {
 			width: 1350px;
 			height: auto;
-			margin: auto;
+			margin:70px 0px auto;
 			padding : auto;
 		}
 		
@@ -249,6 +249,7 @@
 			color: rgb(0,32,96);
 			text-align: left;
 			font-family: Roboto-Thin, Walkway Condensed Semi Bold sans-serif;
+			font-weight: 900;
 			font-size: 20px;
 			max-width: 500px;
 			margin: 0px;
@@ -601,6 +602,7 @@
 		
 		.contact-container p{
 			color: rgb(0,32,96);
+			font-weight: bold;
 			text-align: center;
 			font-family: Roboto-Thin, Walkway Condensed Semi Bold sans-serif;
 			font-size: 50px;
@@ -646,11 +648,6 @@
 
 		.fa-linkedin {
 		  background: #007bb5;
-		  color: white;
-		}
-		
-		.fa-skype {
-		  background: #00aff0;
 		  color: white;
 		}
 
