@@ -88,7 +88,7 @@
 		}*/
 
 		.active {
-			background-color: #717171;
+			background-color: white;
 		}
 
 		.fade {
@@ -222,7 +222,7 @@
 		.getToKnow-container img{
 			margin: auto 25px auto 25px;
 			padding : auto;
-			background-color: cyan;
+			/*background-color: cyan;*/
 		}
 			
 		.getToKnow-container p{
@@ -244,23 +244,7 @@
 			background-color: white;
 		}
 		
-		.getToKnowMyInterest-left{
-			width: 500px;
-			height: 500px;
-			margin: 100px auto 100px 100px;
-			padding : 0px;
-			/*border: solid rgb(0,32,96);*/
-		}
-		
-		.getToKnowMyInterest-right{
-			width: 500px;
-			height: 500px;
-			margin: -605px 150px 100px auto;
-			padding : 0px;
-			/*border: solid rgb(0,32,96);*/			
-		}
-		
-			
+	
 		.getToKnowMyInterest-container p{
 			color: rgb(0,32,96);
 			text-align: left;
@@ -269,7 +253,7 @@
 			max-width: 500px;
 			margin: 0px;
 			padding: 0px;
-			/*background-color: white;*/
+			/*background-color: cyan;*/
 		}
 		
 		.getToKnowFunFacts-container {
@@ -285,7 +269,7 @@
 			height: 450px;
 			margin: -50px auto 100px 100px;
 			padding : 0px;
-			border: solid rgb(0,32,96);
+			/*border: solid rgb(0,32,96);*/
 		}
 		
 		.getToKnowFunFacts-right{
@@ -293,7 +277,7 @@
 			height: 500px;
 			margin: -605px 150px 100px auto;
 			padding : 0px;
-			border: solid rgb(0,32,96);			
+			/*border: solid rgb(0,32,96);*/		
 		}
 		
 			
@@ -316,6 +300,7 @@
 			font-weight: 900;
 			font-size: 20px;
 			max-width: 500px;
+			text-decoration: none;
 			margin-top: 15px;
 			padding: 8px;	
 			/*background-color: white;*/
@@ -634,7 +619,7 @@
 		  position: relative;
 		  padding: 20px;
 		  font-size: 30px;
-		  width: 20px;
+		  width: 60px;
 		  text-align: center;
 		  text-decoration: none;
 		  margin: 50px 2px;
@@ -673,7 +658,6 @@
 		}
 		
 		.hr{
-			
 			width: 1600px;
 			color: #363942;
 			border-top: 2px solid #ea9312;
